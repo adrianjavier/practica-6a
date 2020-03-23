@@ -3,7 +3,7 @@ read -p "Introduce la nota " x
 if [ $x -lt 0 ]; then
 
 while [ $x -lt 0 ]; do
-	echo "ERROR! El numero introducido no es valido, introduzca un numero valido " x
+	read -p "ERROR! El numero introducido no es valido, introduzca un numero valido " x
 done
 
 fi
