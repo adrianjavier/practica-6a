@@ -23,5 +23,6 @@ case $x in
 		echo "Es Domingo"
 		;;
 	*)
+		echo "Error el numero introducido no es valido"
 		`expr ./script7.sh`
 esac
